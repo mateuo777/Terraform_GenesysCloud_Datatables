@@ -1,0 +1,2886 @@
+{
+  "resource": {
+    "genesyscloud_architect_datatable": {
+      "Blacklist_Email": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Blacklist_Email",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Email",
+            "type": "string"
+          }
+        ]
+      },
+      "CONTROL_DINGS_RULES": {
+        "description": "Control Dings Schema",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "CONTROL_DINGS_RULES",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "tableID",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "rules",
+            "title": "rules",
+            "type": "string"
+          }
+        ]
+      },
+      "ChatRouting_Ansagen": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "ChatRouting_Ansagen",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "TextID",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Text",
+            "title": "Text",
+            "type": "string"
+          }
+        ]
+      },
+      "ChatRouting_Blacklist": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "ChatRouting_Blacklist",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "IPAdresse_CustomerID",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Sperr_Endzeitpunkt",
+            "title": "Sperr_Endzeitpunkt",
+            "type": "string"
+          }
+        ]
+      },
+      "ChatRouting_Queue_Configuration": {
+        "description": "Konfiguration der Chat Freigabe und Routings abhängig von der ermittelten Queue",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "ChatRouting_Queue_Configuration",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Queue",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Begrüßung",
+            "title": "Begrüßung",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Zwischeninfo",
+            "title": "Zwischeninfo",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ScheduleGroup",
+            "title": "ScheduleGroup",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "InQueueWaitTimer",
+            "title": "InQueueWaitTimer",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "InQueueWait",
+            "title": "InQueueWait",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Timeout",
+            "title": "Timeout",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Verabschiedung",
+            "title": "Verabschiedung",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EWT Threshold",
+            "title": "EWT Threshold",
+            "type": "integer"
+          }
+        ]
+      },
+      "Configuration_Email": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Configuration_Email",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Case",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Minutes",
+            "title": "Minutes",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Number Of Interactions",
+            "title": "Number Of Interactions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Table_ID",
+            "title": "Table_ID",
+            "type": "string"
+          }
+        ]
+      },
+      "ControlDingsDemo": {
+        "description": "ControlDingsDemo",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "ControlDingsDemo",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Interval",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Partner1",
+            "title": "Partner1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Partner1%",
+            "title": "Partner1%",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Partner2",
+            "title": "Partner2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Partner2%",
+            "title": "Partner2%",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Partner3",
+            "title": "Partner3",
+            "type": "string"
+          },
+          {
+            "default": "0",
+            "name": "Partner3%",
+            "title": "Partner3%",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Partner4",
+            "title": "Partner4",
+            "type": "string"
+          },
+          {
+            "default": "0",
+            "name": "Partner4%",
+            "title": "Partner4%",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Partner5",
+            "title": "Partner5",
+            "type": "string"
+          },
+          {
+            "default": "0",
+            "name": "Partner5%",
+            "title": "Partner5%",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "DefaultPartner",
+            "title": "DefaultPartner",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "UeberlaufSchalter",
+            "title": "UeberlaufSchalter",
+            "type": "string"
+          },
+          {
+            "default": "0",
+            "name": "test",
+            "title": "test",
+            "type": "integer"
+          },
+          {
+            "default": "1",
+            "name": "test1",
+            "title": "test2",
+            "type": "number"
+          },
+          {
+            "default": "gg",
+            "name": "g",
+            "title": "g",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "holup",
+            "title": "holup",
+            "type": "number"
+          }
+        ]
+      },
+      "Demo_HelplineWeiterleitung": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Demo_HelplineWeiterleitung",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Servicerufnummer",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Rufnummer_Weiterleitung",
+            "title": "Rufnummer_Weiterleitung",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Kunde",
+            "title": "Kunde",
+            "type": "string"
+          }
+        ]
+      },
+      "EmergencyChain": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "EmergencyChain",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Case",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Number1",
+            "title": "Number1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Number2",
+            "title": "Number2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Number3",
+            "title": "Number3",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_EADE_Table_App_Profiles_Routing": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.EADE.Table.App.Profiles.Routing",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "PROFILENAME",
+            "type": "string"
+          },
+          {
+            "default": "Rostock",
+            "name": "departmentName",
+            "title": "departmentName",
+            "type": "string"
+          },
+          {
+            "default": "Beratung|1;Bestellung|2",
+            "name": "activeQueuesAndBullseyeRing",
+            "title": "activeQueuesAndBullseyeRing",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "inactiveQueuesAndBullseyeRing",
+            "title": "inactiveQueuesAndBullseyeRing",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "overwriteSkills",
+            "title": "overwriteSkills",
+            "type": "boolean"
+          },
+          {
+            "default": "Allgemein|8;Experte|4",
+            "name": "acdSkillsAndRatings",
+            "title": "acdSkillsAndRatings",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_EA_DNIS": {
+        "description": "Vorlage DNIS Tabelle für EA",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.EA.DNIS",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueueName",
+            "title": "DefaultQueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PersonalizedPromtName",
+            "title": "PersonalizedPromptName",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "IVRCorporate",
+            "title": "IVRCorporate",
+            "type": "boolean"
+          },
+          {
+            "default": "true",
+            "name": "RecordRequest",
+            "title": "RecordRequest",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "RetailerCall",
+            "title": "RetailerCall",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "OpenOLERecord",
+            "title": "OpenOLERecord",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "CapacityLevel",
+            "title": "CapacityLevel",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "International",
+            "title": "International",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "Priority",
+            "title": "Priority",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkillsetName",
+            "title": "ACDSkillsetName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultLanguage",
+            "title": "Note",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_EA_Prompt": {
+        "description": "Vorlagetabelle für personalisierte Promts für EA",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.EA.Prompt",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "PersonalizedPromptName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "IVRCorporatePromtYes_1",
+            "title": "IVRCorporatePromptYes",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "IVRCorporatePromtNo",
+            "title": "IVRCorporatePromptNo",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "RecordRequestPromt",
+            "title": "RecordRequestPrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "RetailerCallPromt",
+            "title": "RetailerCallPrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PersonalizedPromt",
+            "title": "VIN_ABC_Damage_Prompt",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Email": {
+        "description": "Konfigurationstabelle für das Email Routing",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Email",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Email Adresse",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Sprache analysieren?",
+            "title": "Sprache analysieren?",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "Sprachen (Liste, separiert mit Semikolon)",
+            "title": "Sprachen (Liste, separiert mit Semikolon)",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Empfangsbestätigung senden?",
+            "title": "Empfangsbestätigung senden?",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "Anliegen analysieren?",
+            "title": "Anliegen analysieren?",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "Anliegen (Liste, separiert mit Semikolon)",
+            "title": "Anliegen (Liste, separiert mit Semikolon)",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Last Agent / Last Queue Routing aktivieren?",
+            "title": "Last Agent / Last Queue Routing aktivieren?",
+            "type": "boolean"
+          },
+          {
+            "default": "5",
+            "name": "Wieviel Tage zurück wird nach dem letzten Kontakt gesucht?",
+            "title": "Wieviel Tage zurück wird nach dem letzten Kontakt gesucht?",
+            "type": "integer"
+          },
+          {
+            "default": "5",
+            "name": "Priorität für LastAgent Routing",
+            "title": "Priorität für LastAgent Routing",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueue",
+            "title": "DefaultQueue",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Intents": {
+        "description": "Stichwortlisten",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Intents",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Intent",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "KeyWords",
+            "title": "KeyWords",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Queue",
+            "title": "Queue",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_DNIS": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.DNIS",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueueName",
+            "title": "DefaultQueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "RoutingSet",
+            "title": "RoutingName",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "PlayMainMenue",
+            "title": "PlayMainMenue",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "MainMenueName",
+            "title": "MainMenueName",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "PlayRecordingMenue",
+            "title": "PlayRecordingMenue",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "RecordingMenuePrompt",
+            "title": "RecordingMenuePrompt",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_MainMenue": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.MainMenue",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "MainMenueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenuePrompt",
+            "title": "MainMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "NumberOfOptions",
+            "title": "NumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType1",
+            "title": "MenueOptionType1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName1",
+            "title": "MenueOptionObjectName1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType2",
+            "title": "MenueOptionType2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName2",
+            "title": "MenueOptionObjectName2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType3",
+            "title": "MenueOptionType3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName3",
+            "title": "MenueOptionObjectName3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType4",
+            "title": "MenueOptionType4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName4",
+            "title": "MenueOptionObjectName4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType5",
+            "title": "MenueOptionType5",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName5",
+            "title": "MenueOptionObjectName5",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_PreferredAgents": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.PreferredAgents",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "PreferredAgentsSet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PreferredAgent1",
+            "title": "PreferredAgent1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Agent1Score",
+            "title": "Agent1Score",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PreferredAgent2",
+            "title": "PreferredAgent2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Agent2Score",
+            "title": "Agent2Score",
+            "type": "integer"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_Routing": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.Routing",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "RoutingName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueName",
+            "title": "QueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Priority",
+            "title": "Priority",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PreferredAgentsScoreList",
+            "title": "PreferredAgentsSet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "LanguageSkill",
+            "title": "LanguageSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkillList",
+            "title": "ACDSkillSet",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "LastAgentRouting",
+            "title": "LastAgentRouting",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "VIPRouting",
+            "title": "VIPRouting",
+            "type": "boolean"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_Skillset": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.Skillset",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "ACDSkillSet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill1",
+            "title": "ACDSkill1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill2_1",
+            "title": "ACDSkill2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill3",
+            "title": "ACDSkill3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill4",
+            "title": "ACDSkill4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill5",
+            "title": "ACDSkill5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill6",
+            "title": "ACDSkill6",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Fndn_Next_Table_SubMenue": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Fndn.Next.Table.SubMenue",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "SubMenueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuePrompt",
+            "title": "SubMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubNumberOfOptions",
+            "title": "SubNumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "SubmenueOptionObjectName1",
+            "title": "SubMenueOptionObjectName1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName2",
+            "title": "SubMenueOptionObjectName2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName3",
+            "title": "SubMenueOptionObjectName3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName4",
+            "title": "SubMenueOptionObjectName4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName5",
+            "title": "SubMenueOptionObjectName5",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_Table_ClosingHours": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.ClosingHours",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ClosedAnnouncement",
+            "title": "ClosedAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Action",
+            "title": "Action",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Target",
+            "title": "Target",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_Table_DNIS": {
+        "description": "GC Foundation - Routing-Queue anhand der DNIS ermitteln",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.DNIS",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": "GC.Foundation.Test1",
+            "name": "DefaultQueueName",
+            "title": "DefaultQueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueuePrompt",
+            "title": "DefaultQueuePrompt",
+            "type": "string"
+          },
+          {
+            "default": "de-de",
+            "name": "DefaultLanguage",
+            "title": "DefaultLanguage",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Greeting",
+            "title": "GreetingPrompt",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "PlayMainMenue",
+            "title": "PlayMainMenue",
+            "type": "boolean"
+          },
+          {
+            "default": "GC.Foundation.MainMenue",
+            "name": "MainMenueParametersName",
+            "title": "MainMenueParametersName",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "PlayRecordingMenue",
+            "title": "PlayRecordingMenue",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "RecordingMenuePrompt",
+            "title": "RecordingMenuePrompt",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_Table_DNIS4EA": {
+        "description": "GC Foundation - Routing-Queue anhand der DNIS ermitteln",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.DNIS4EA",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": "GC.Foundation.Test1",
+            "name": "DefaultQueueName",
+            "title": "DefaultQueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueuePrompt",
+            "title": "DefaultQueuePrompt",
+            "type": "string"
+          },
+          {
+            "default": "de-de",
+            "name": "DefaultLanguage",
+            "title": "DefaultLanguage",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultSkill",
+            "title": "DefaultSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultPrio",
+            "title": "DefaultPrio",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Greeting",
+            "title": "GreetingPrompt",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "PlayMainMenue",
+            "title": "PlayMainMenue",
+            "type": "boolean"
+          },
+          {
+            "default": "GC.Foundation.MainMenue",
+            "name": "MainMenueParametersName",
+            "title": "MainMenueParametersName",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "PlayRecordingMenue",
+            "title": "PlayRecordingMenue",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "RecordingMenuePrompt",
+            "title": "RecordingMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "SchedulebasedRouting",
+            "title": "SchedulebasedRouting",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "Monday",
+            "title": "Monday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Tuesday",
+            "title": "Tuesday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Wednesday",
+            "title": "Wednesday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Thursday",
+            "title": "Thursday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Friday",
+            "title": "Friday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Saturday",
+            "title": "Saturday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Sunday",
+            "title": "Sunday",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenueParametersNameA",
+            "title": "MainMenueParametersNameA",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenueParametersNameB",
+            "title": "MainMenueParametersNameB",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenueParametersNameC",
+            "title": "MainMenueParametersNameC",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenueParametersNameDefault",
+            "title": "MainMenueParametersNameDefault",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Holidayhandling",
+            "title": "Holidayhandling",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "HolidaySchedule",
+            "title": "HolidaySchedule",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayMenue_A",
+            "title": "HolidayMenue_A",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayMenue_B",
+            "title": "HolidayMenue_B",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayMenue_C",
+            "title": "HolidayMenue_C",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayMenue_Default",
+            "title": "HolidayMenue_Default",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_Table_In-QueueConf": {
+        "description": "configuration table for GC.Foundation In-Queue flows",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.In-QueueConf",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "QueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueGreeting",
+            "title": "QueueGreeting",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EWT_Once",
+            "title": "EWT_Once",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PIQ_Once",
+            "title": "PIQ_Once",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Music_1",
+            "title": "Music_1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "QueueAnnouncement_1",
+            "title": "QueueAnnouncement_1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Music_2",
+            "title": "Music_2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "EWT_Queue",
+            "title": "EWT_Queue",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PIQ_Queue",
+            "title": "PIQ_Queue",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Music_3",
+            "title": "Music_3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "QueueAnnouncement_2",
+            "title": "QueueAnnouncement_2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Music_4",
+            "title": "Music_4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "NumberOfLoops",
+            "title": "NumberOfLoops",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "TimeoutAnnouncement",
+            "title": "TimeoutAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "TimeoutAction",
+            "title": "TimeoutAction",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "TimeoutTarget",
+            "title": "TimeoutTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueOption",
+            "title": "QueueOption",
+            "type": "integer"
+          },
+          {
+            "default": "false",
+            "name": "TestMode",
+            "title": "TestMode",
+            "type": "boolean"
+          }
+        ]
+      },
+      "GC_Foundation_Table_MenueParameters": {
+        "description": "GC.Foundation table for menue parameters ",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.MenueParameters",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "MainMenueParameters",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MainMenuePrompt",
+            "title": "MainMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "NumberOfOptions",
+            "title": "NumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType1",
+            "title": "MenueOptionType1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt1",
+            "title": "MenuOptionPrompt1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName1",
+            "title": "MenueOptionObjectName1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType2",
+            "title": "MenueOptionType2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt2",
+            "title": "MenuOptionPrompt2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName2",
+            "title": "MenueOptionObjectName2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType3",
+            "title": "MenueOptionType3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt3",
+            "title": "MenuOptionPrompt3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName3",
+            "title": "MenueOptionObjectName3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType4",
+            "title": "MenueOptionType4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt4",
+            "title": "MenuOptionPrompt4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName4",
+            "title": "MenueOptionObjectName4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType5",
+            "title": "MenueOptionType5",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt5",
+            "title": "MenuOptionPrompt5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName5",
+            "title": "MenueOptionObjectName5",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_Table_MenueParameters4EA": {
+        "description": "GC.Foundation table for menue parameters ",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.MenueParameters4EA",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "MainMenueParameters",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultObjectType",
+            "title": "DefaultObjectType",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "DefaultPrompt",
+            "title": "DefaultPrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultObjectName",
+            "title": "DefaultObjectName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultObjectSkill",
+            "title": "DefaultObjectSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultPrio",
+            "title": "DefaultPrio",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MainMenuePrompt",
+            "title": "MainMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "NumberOfOptions",
+            "title": "NumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType1",
+            "title": "MenueOptionType1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt1",
+            "title": "MenuOptionPrompt1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName1",
+            "title": "MenueOptionObjectName1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectSkill1",
+            "title": "MenueOptionObjectSkill1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "OptionPrio1",
+            "title": "OptionPrio1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType2",
+            "title": "MenueOptionType2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt2",
+            "title": "MenuOptionPrompt2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName2",
+            "title": "MenueOptionObjectName2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectSkill2",
+            "title": "MenueOptionObjectSkill2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "OptionPrio2",
+            "title": "OptionPrio2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType3",
+            "title": "MenueOptionType3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt3",
+            "title": "MenuOptionPrompt3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName3",
+            "title": "MenueOptionObjectName3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectSkill3",
+            "title": "MenueOptionObjectSkill3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "OptionPrio3",
+            "title": "OptionPrio3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType4",
+            "title": "MenueOptionType4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt4",
+            "title": "MenuOptionPrompt4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName4",
+            "title": "MenueOptionObjectName4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectSkill4",
+            "title": "MenueOptionObjectSkill4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "OptionPrio4",
+            "title": "OptionPrio4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionType5",
+            "title": "MenueOptionType5",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "MenuOptionPrompt5",
+            "title": "MenuOptionPrompt5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectName5",
+            "title": "MenueOptionObjectName5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenueOptionObjectSkill5",
+            "title": "MenueOptionObjectSkill5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "OptionPrio5",
+            "title": "OptionPrio5",
+            "type": "integer"
+          }
+        ]
+      },
+      "GC_Foundation_Table_SubMenueParameters": {
+        "description": "GC.Foundation table for submenue parameters",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation.Table.SubMenueParameters",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "SubMenueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubmenuePrompt",
+            "title": "SubmenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubNumberOfOptions",
+            "title": "SubNumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionType1",
+            "title": "SubMenueOptionType1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuOptionPrompt1_1",
+            "title": "SubMenueOptionPrompt1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName1",
+            "title": "SubMenueOptionObjectName1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionType2",
+            "title": "SubMenueOptionType2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuOptionPrompt2",
+            "title": "SubMenueOptionPrompt2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName2",
+            "title": "SubMenueOptionObjectName2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionType3",
+            "title": "SubMenueOptionType3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuOptionPrompt3",
+            "title": "SubMenueOptionPrompt3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName3",
+            "title": "SubMenueOptionObjectName3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionType4",
+            "title": "SubMenueOptionType4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuOptionPrompt4",
+            "title": "SubMenueOptionPrompt4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName4",
+            "title": "SubMenueOptionObjectName4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionType5",
+            "title": "SubMenueOptionType5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenuOptionPrompt5",
+            "title": "SubMenueOptionPrompt5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SubMenueOptionObjectName5",
+            "title": "SubMenueOptionObjectName5",
+            "type": "string"
+          }
+        ]
+      },
+      "GC_Foundation_v2_DNIS": {
+        "description": "GC Foundation",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "GC.Foundation_v2.DNIS",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Email",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "identifier",
+            "title": "Customer Identifier",
+            "type": "integer"
+          },
+          {
+            "default": "false",
+            "name": "deleted",
+            "title": "Is Deleted",
+            "type": "boolean"
+          }
+        ]
+      },
+      "Gebietsausfall": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Gebietsausfall",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "key",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Gultig_ab",
+            "title": "Gultig_ab",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Gebiet",
+            "title": "Gebiet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Fahrtour",
+            "title": "Fahrtour",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Ablagestelle",
+            "title": "Ablagestelle",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Organisation",
+            "title": "Organisation",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Bezeichnung_gebiet",
+            "title": "Bezeichnung_gebiet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Gemeldet_um",
+            "title": "Gemeldet_um",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Gemeldet_bei",
+            "title": "Gemeldet_bei",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Ausfallgrund",
+            "title": "Ausfallgrund",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Angerufen_um",
+            "title": "Angerufen_um",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Tragt_von",
+            "title": "Tragt_von",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Tragt_bis",
+            "title": "Tragt_bis",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Info",
+            "title": "Info",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Quellgebiet",
+            "title": "Quellgebiet",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Verkaufsprodukt",
+            "title": "Verkaufsprodukt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Kurzbez_VerKPr",
+            "title": "Kurzbez_VerKPr",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Gultig_bis",
+            "title": "Gultig_bis",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Kein_Info_an_Leser",
+            "title": "Kein_Info_an_Leser",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Info_gesendet_am",
+            "title": "Info_gesendet_am",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Info_gesendet_um",
+            "title": "Info_gesendet_um",
+            "type": "string"
+          }
+        ]
+      },
+      "Gerrit_Secure": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Gerrit_Secure",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Account Number",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Customer Name",
+            "title": "Customer Name",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Priority",
+            "title": "Priority",
+            "type": "boolean"
+          },
+          {
+            "default": "50",
+            "name": "Bill Amount",
+            "title": "Bill Amount",
+            "type": "number"
+          },
+          {
+            "default": "Januar",
+            "name": "Monat",
+            "title": "Monat",
+            "type": "string"
+          }
+        ]
+      },
+      "Home_DNIS-Service-Config-v3": {
+        "description": "Home_DNIS-Service-Config - Konfiguration des InboundCall Flows anhand der DNIS (OH, OOH, Holiday)",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Home_DNIS-Service-Config-v3",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ServiceName",
+            "title": "ServiceName",
+            "type": "string"
+          },
+          {
+            "default": "true",
+            "name": "PlayGreetingPrompt",
+            "title": "PlayGreetingPrompt",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "PlayGreetingHint",
+            "title": "PlayGreetingHint",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "GreetingPrompt",
+            "title": "GreetingPrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "GreetingHint",
+            "title": "GreetingHint",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "PlayMainMenue",
+            "title": "PlayIVR",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "MainMenueParametersName",
+            "title": "MenuName",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "PlayRecordingMenue",
+            "title": "PlayRecordingMenu",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "RecordingMenuePrompt",
+            "title": "RecordingMenuPrompt",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "PlayCoachingMenue",
+            "title": "PlayCoachingMenue",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "CoachingMenuePrompt",
+            "title": "CoachingMenuePrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueueName",
+            "title": "DefaultTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultType",
+            "title": "DefaultType",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "DefaultPrio",
+            "title": "DefaultPrio",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "DefaultSkill",
+            "title": "DefaultSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultLanguageSkill",
+            "title": "DefaultLanguageSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultIntent",
+            "title": "DefaultIntent",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DefaultQueuePrompt",
+            "title": "DefaultTargetPrompt",
+            "type": "string"
+          },
+          {
+            "default": "de-de",
+            "name": "DefaultLanguage",
+            "title": "DefaultLanguage",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "IsDirectCall",
+            "title": "IsDirectCall",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "DirectCallAgentEmail",
+            "title": "DirectCallAgentEmail",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "DirectCallDNIS",
+            "title": "DirectCallDNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ScheduleGroupName",
+            "title": "ScheduleGroupName",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "CheckOOHAgents",
+            "title": "CheckOOHAgents",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "CheckOOHAgentsQueueName",
+            "title": "CheckOOHAgentsQueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ClosedAnnouncement",
+            "title": "ClosedAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ClosedAction",
+            "title": "ClosedAction",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ClosedTarget",
+            "title": "ClosedTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayAnnouncement",
+            "title": "HolidayAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayAction",
+            "title": "HolidayAction",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "HolidayTarget",
+            "title": "HolidayTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EventName",
+            "title": "EventName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EventAnnouncement",
+            "title": "EventAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EventAction",
+            "title": "EventAction",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EventTarget",
+            "title": "EventTarget",
+            "type": "string"
+          }
+        ]
+      },
+      "Home_In-QueueConf-v1": {
+        "description": "Home_In-Queue - Konfigurationstabelle für InQueue Flows (innerhalb der Warteschleife)",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Home_In-QueueConf-v1",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "QueueName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueGreeting",
+            "title": "QueueGreeting",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "EWT_Once",
+            "title": "EWT_Once",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PIQ_Once",
+            "title": "PIQ_Once",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Music_1",
+            "title": "Music_1",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "QueueAnnouncement_1",
+            "title": "QueueAnnouncement_1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Music_2",
+            "title": "Music_2",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "EWT_Queue",
+            "title": "EWT_Queue",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "PIQ_Queue",
+            "title": "PIQ_Queue",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Music_3",
+            "title": "Music_3",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "QueueAnnouncement_2",
+            "title": "QueueAnnouncement_2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Music_4",
+            "title": "Music_4",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "NumberOfLoops",
+            "title": "NumberOfLoops",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "TimeoutAnnouncement",
+            "title": "TimeoutAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "TimeoutAction",
+            "title": "TimeoutAction",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "TimeoutTarget",
+            "title": "TimeoutTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueOption",
+            "title": "QueueOption",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "VoiceMailAnnouncement",
+            "title": "VoiceMailAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "VoiceMailQueue",
+            "title": "VoiceMailQueue",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "CallbackQueue",
+            "title": "CallbackQueue",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "CallBackAnnouncement",
+            "title": "CallBackAnnouncement",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "CheckAgentsOnQueue",
+            "title": "CheckAgentsOnQueue",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "CheckAgentsAvailable",
+            "title": "CheckAgentsAvailable",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "LARType",
+            "title": "LARType",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "LARTimeframe",
+            "title": "LARTimeframe",
+            "type": "integer"
+          },
+          {
+            "default": "false",
+            "name": "TestMode",
+            "title": "TestMode",
+            "type": "boolean"
+          }
+        ]
+      },
+      "Home_MenuOptions": {
+        "description": "Home_MenuOptions - Konfigurationstabelle der IVR Ausgänge (Ziele)",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Home_MenuOptions",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "OptionName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ServiceName",
+            "title": "ServiceName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Target",
+            "title": "Target",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Type",
+            "title": "Type",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Prompt",
+            "title": "Prompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ACDSkill",
+            "title": "ACDSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "LanguageSkill",
+            "title": "LanguageSkill",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Prio",
+            "title": "Prio",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "Intent",
+            "title": "Intent",
+            "type": "string"
+          }
+        ]
+      },
+      "Home_MenuParameters": {
+        "description": "Home_MenuParameters - Konfigurationstabelle der IVR Menüpunkte (Optionen)",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Home_MenuParameters",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "MenuName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "MenuPrompt",
+            "title": "MenuPrompt",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "NumberOfOptions",
+            "title": "NumberOfOptions",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "OptionDefault",
+            "title": "OptionDefault",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option1",
+            "title": "Option1",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option2",
+            "title": "Option2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option3",
+            "title": "Option3",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option4",
+            "title": "Option4",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option5",
+            "title": "Option5",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option6",
+            "title": "Option6",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option7",
+            "title": "Option7",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option8",
+            "title": "Option8",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Option9",
+            "title": "Option9",
+            "type": "string"
+          }
+        ]
+      },
+      "Jan_Test_Table": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Jan_Test_Table",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Seconds_till_Waittime",
+            "type": "string"
+          },
+          {
+            "default": "300",
+            "name": "Waittime minimum in Seconds (1 Min Steps)_1",
+            "title": "Waittime minimum in Seconds (1 Min Steps)",
+            "type": "integer"
+          },
+          {
+            "default": "600",
+            "name": "Waittime maximum in Seconds (5 Min Steps)",
+            "title": "Waittime maximum in Seconds (5 Min Steps)",
+            "type": "integer"
+          }
+        ]
+      },
+      "Kamil_DataTable2": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Kamil_DataTable2",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "id",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "code",
+            "title": "code",
+            "type": "string"
+          }
+        ]
+      },
+      "Marcus_Test_AgentlesFlow": {
+        "description": "dummydata for agentless email in call flow",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Marcus_Test_AgentlesFlow",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "lookup",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "FromAddress",
+            "title": "FromAddress",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "FromName",
+            "title": "FromName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ToAddress",
+            "title": "ToAddress",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ToName",
+            "title": "ToName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Subject",
+            "title": "Subject",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "TextBody",
+            "title": "TextBody",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ReplytoAddress",
+            "title": "ReplytoAddress",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ReplytoName",
+            "title": "ReplytoName",
+            "type": "string"
+          }
+        ]
+      },
+      "Routing_Advice2QueueSkillAdvice": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Routing_Advice2QueueSkillAdvice",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "RoutingAdvice",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "QueueAdvice",
+            "title": "QueueAdvice",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "SkillAdvice",
+            "title": "SkillAdvice",
+            "type": "string"
+          }
+        ]
+      },
+      "SchemaTableMilind": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "SchemaTableMilind",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DatatableName",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "ColumnRules",
+            "title": "ColumnRules",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "RowRules",
+            "title": "RowRules",
+            "type": "string"
+          }
+        ]
+      },
+      "Test_DNIS": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "Test.DNIS",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "DNIS",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Ansage Besetzt",
+            "title": "Ansage Besetzt",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "Weiterleitung",
+            "title": "Weiterleitung",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "QueueOption",
+            "title": "QueueOption",
+            "type": "boolean"
+          }
+        ]
+      },
+      "X_MarcusCustomerdata": {
+        "description": "Spoofed Customer data ",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "X_MarcusCustomerdata",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Input",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Name",
+            "title": "Name",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Name2",
+            "title": "Name2",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Name3",
+            "title": "Name3",
+            "type": "string"
+          }
+        ]
+      },
+      "blinkyDings_rules": {
+        "description": "Rules for the blinkyDings PremiumApp",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "blinkyDings_rules",
+        "properties": [
+          {
+            "default": null,
+            "name": "description",
+            "title": "description",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "key",
+            "title": "id",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "eventWeight",
+            "title": "eventWeight",
+            "type": "integer"
+          },
+          {
+            "default": null,
+            "name": "displayName",
+            "title": "displayName",
+            "type": "string"
+          },
+          {
+            "default": "default",
+            "name": "cfgMapping",
+            "title": "cfgMapping",
+            "type": "string"
+          },
+          {
+            "default": "StateType == \"VALUE\"",
+            "name": "ruleExpression",
+            "title": "ruleExpression",
+            "type": "string"
+          },
+          {
+            "default": "{\"ArgbColor\":-16711936,\"BlinkTime\":0,\"CloseAfterTime\":false}",
+            "name": "blinkEvent",
+            "title": "blinkEvent",
+            "type": "string"
+          }
+        ]
+      },
+      "syncDings_rules": {
+        "description": "syncDings_Demo_12_2024",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "syncDings_rules",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "key",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "name",
+            "title": "name",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "trigger",
+            "title": "trigger",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "action",
+            "title": "action",
+            "type": "string"
+          }
+        ]
+      },
+      "test": {
+        "description": null,
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "test",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "ani",
+            "type": "string"
+          }
+        ]
+      },
+      "xMarcusRoutingtable": {
+        "description": "Testing routing stuff for Marcus",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "xMarcusRoutingtable",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Input",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Queue",
+            "title": "Queue",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Skills",
+            "title": "Skills",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Prio",
+            "title": "Prio",
+            "type": "integer"
+          }
+        ]
+      },
+      "xMarcus_PlayAnnouncements": {
+        "description": "used to play different announcements with routing or disconnect",
+        "division_id": "223a1aba-4f9c-40a8-b6f1-9c1a56f04419",
+        "name": "xMarcus_PlayAnnouncements",
+        "properties": [
+          {
+            "default": null,
+            "name": "key",
+            "title": "Identifier",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PromptsInitial",
+            "title": "PromptsInitial",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PromptsAnswerOne",
+            "title": "PromptsAnswerOne",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PromptsAnswerTwo",
+            "title": "PromptsAnswerTwo",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "Action",
+            "title": "Action",
+            "type": "string"
+          },
+          {
+            "default": "false",
+            "name": "VIC",
+            "title": "VIC",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "IC",
+            "title": "IC",
+            "type": "boolean"
+          },
+          {
+            "default": "false",
+            "name": "Postroutingactivation",
+            "title": "Postroutingactivation",
+            "type": "boolean"
+          },
+          {
+            "default": null,
+            "name": "ReroutingTarget",
+            "title": "ReroutingTarget",
+            "type": "string"
+          },
+          {
+            "default": null,
+            "name": "PriorityMod",
+            "title": "PriorityMod",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  },
+  "terraform": {
+    "required_providers": {
+      "genesyscloud": {
+        "source": "registry.terraform.io/mypurecloud/genesyscloud",
+        "version": "1.26.0"
+      }
+    }
+  }
+}
